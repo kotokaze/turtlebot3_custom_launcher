@@ -11,6 +11,10 @@
 
   <buildtool_depend>ament_cmake_auto</buildtool_depend>
 
+  <depend>rclpy</depend>
+  <depend>python3-matplotlib</depend>
+
+  <depend>rcl_interfaces</depend>
   <depend>gazebo_ros</depend>
   <depend>turtlebot3_gazebo</depend>
 
