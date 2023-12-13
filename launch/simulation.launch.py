@@ -7,7 +7,7 @@ from typing import Final
 
 from ament_index_python.packages import get_package_share_directory  # type: ignore[import]
 
-from launch import substitutions, LaunchDescription 
+from launch import substitutions, LaunchDescription
 from launch.actions import DeclareLaunchArgument, GroupAction, IncludeLaunchDescription, LogInfo
 from launch.conditions import IfCondition
 from launch.launch_description_sources import PythonLaunchDescriptionSource
